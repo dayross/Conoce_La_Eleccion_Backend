@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Conoce_La_Eleccion_Backend.Context
 {
-    public class DatosAspiranteContext : DbContext
+    public class AppDbContext : DbContext
     {
-        public DatosAspiranteContext(DbContextOptions<DatosAspiranteContext> options) : base(options)
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
 
         }

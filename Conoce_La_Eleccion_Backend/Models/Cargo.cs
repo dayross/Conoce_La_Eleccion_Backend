@@ -6,7 +6,7 @@ namespace Conoce_La_Eleccion_Backend.Models
     {
         [Key] 
         public int IdCargo { get; set; }
-
+        [Required]
         public string Descripcion { get; set; }
     }
 }

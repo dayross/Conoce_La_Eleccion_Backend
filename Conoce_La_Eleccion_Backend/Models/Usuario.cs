@@ -6,7 +6,7 @@ namespace Conoce_La_Eleccion_Backend.Models
     {
         [Key]
         public int IdUsuario { get; set; }
-
+        [Required]
         public string Nickname { get; set; }
 
     }

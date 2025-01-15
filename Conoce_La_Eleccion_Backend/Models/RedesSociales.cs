@@ -6,7 +6,7 @@ namespace Conoce_La_Eleccion_Backend.Models
     {
         [Key]
         public int IdRedesSociales {  get; set; }
-
+        [Required]
         public string Url {  get; set; }
 
         public int IdTipoRedSocial {  get; set; }
