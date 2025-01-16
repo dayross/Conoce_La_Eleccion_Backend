@@ -3,6 +3,10 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#ignore any .json file
+*.json
+
+
 # User-specific files
 *.rsuser
 *.suo
@@ -361,3 +365,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+
+/Conoce_La_Eleccion_Backend/appsettings.json
