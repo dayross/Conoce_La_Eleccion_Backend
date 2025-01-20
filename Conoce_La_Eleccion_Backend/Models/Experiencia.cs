@@ -5,7 +5,7 @@ namespace Conoce_La_Eleccion_Backend.Models
     public class Experiencia
     {
         [Key]
-        public int IDExperiencia {  get; set; }
+        public int IdExperiencia {  get; set; }
         [Required]
         public string Puesto { get; set; }
         [Required]
